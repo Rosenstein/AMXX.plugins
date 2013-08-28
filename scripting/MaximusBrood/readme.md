@@ -13,3 +13,5 @@ noRush - Prevents rushing in aim_ak-colt by disabling the rushing user's weapon 
 trueChat - Allows dead people to see alive chat, cleanly, as if it was standard functionality. When I wrote this, all other plugins that offered the same functionality sucked; they didn't hook SayText, and added garbage to the chat messages. There might be a good version for this in the approved plugins section already, I don't know.
 
 slashMe - /me functionality. Probably exists already, but I'll post it anyway. Probably conflicts with the CS1.6 stats plugin too, beware.
+
+http://i44.tinypic.com/24gittk.png
