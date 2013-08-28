@@ -1,3 +1,10 @@
+/*
+This is a version of this plugin I created a long time ago for my own server. It allows you to control who may put on a certain hat. 'Back in the day', I used it to reward people who donated money. No documentation, no support. If you want to use it, figure out how it works ;)
+
+You will need two tables: hats_hats and hats_users. 
+hats_hats has columns 'id', 'name' and 'model'; all hat models should be in there, 'id' should start at 1. 
+hats_users has columns 'authid' and 'access'. The 'access' column decides which hats a user can use, it works like this: if a user is allowed hat id 1, 3 and 5, the access should be: 2^1 + 2^3 + 2^5 = 42. http://www.google.com/search?q=2^1+%2B+2^3+%2B+2^5
+*/
 #include <amxmodx>
 #include <amxmisc>
 #include <fakemeta>
