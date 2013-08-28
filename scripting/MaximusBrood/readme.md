@@ -1,6 +1,6 @@
 I maintained a CS server some time ago, and wrote custom plugins for it. Releasing those plugins into the public might be useful for others.
 
-I'm _not_ offering support for these plugins, I'm just dropping them here. If you want to maintain them yourself, please do so. Most plugins should work (they have worked for more than 1,5 years on my server), but be prepared to debug a little; they were never meant to be released.
+**I'm -not- offering support for these plugins**, I'm just dropping them here. If you want to maintain them yourself, please do so. Most plugins should work (they have worked for more than 1,5 years on my server), but be prepared to debug a little; they were never meant to be released.
 
 playerHats - Like this plugin, but only allows certain users (specified in a sqlite/mysql database) to put on certain hats. Works great for rewarding donating players, etc. Tiny documentation here.
 
