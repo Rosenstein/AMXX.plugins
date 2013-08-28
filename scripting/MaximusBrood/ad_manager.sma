@@ -1,4 +1,3 @@
-```php
 #include <amxmodx>
 #include <amxmisc>
 
@@ -387,4 +386,4 @@ stock setString(mode, type, string[], one, two = 0)
 		}
 	}
 }
-```
+
