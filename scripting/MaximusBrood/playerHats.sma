@@ -1,5 +1,5 @@
 /*
-This is a version of this plugin I created a long time ago for my own server. It allows you to control who may put on a certain hat. 'Back in the day', I used it to reward people who donated money. No documentation, no support. If you want to use it, figure out how it works ;)
+This is a version of this plugin I created a long time ago for my own server. It allows you to control who may put on a certain hat. 'Back in the day', I used it to reward people who donated money. No documentation, no support. If you want to use it, figure out how it works ;) 
 
 You will need two tables: hats_hats and hats_users. 
 hats_hats has columns 'id', 'name' and 'model'; all hat models should be in there, 'id' should start at 1. 
