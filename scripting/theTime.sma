@@ -79,11 +79,8 @@ public sayTheTime(id)
 	
 	new ctime[64]
 	
-	get_time("%m/%d/%Y - %H:%M:%S", ctime, 63)
+	get_time("%d/%m/%Y - %H:%M:%S", ctime, 63)
 	client_print(0, print_chat, "%L:   %s", LANG_PLAYER, "THE_TIME", ctime)
 	
 	return PLUGIN_CONTINUE
 }
-/* AMXX-Studio Notes - DO NOT MODIFY BELOW HERE
-*{\\ rtf1\\ ansi\\ deff0{\\ fonttbl{\\ f0\\ fnil Tahoma;}}\n\\ viewkind4\\ uc1\\ pard\\ lang1033\\ f0\\ fs16 \n\\ par }
-*/
